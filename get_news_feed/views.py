@@ -10,6 +10,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 from rest_api.models import *
+from get_news_feed.bing_search import *
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__) 
@@ -18,7 +19,7 @@ def index(requests):
     """
     default method 
     """
-    get_active_project()   
+    bing_bot_two(11)   
     return HttpResponse("data=")
 
 def start_job():

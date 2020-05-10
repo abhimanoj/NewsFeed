@@ -10,6 +10,8 @@ schema_view = get_schema_view(title='news_feed backend', renderer_classes=[OpenA
 
 urlpatterns = [
     path('', include('rest_api.urls')),
+    path('news_feed/', include('get_news_feed.urls')),
+
 
     path('admin/', admin.site.urls),
 
