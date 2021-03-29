@@ -10,4 +10,4 @@ simplejson==3.11.1
 django-background-tasks==1.2.5
 django-cors-headers==3.2.1
 schedule==0.6.0 
-pygments==2.6.1
+pygments==2.7.4
