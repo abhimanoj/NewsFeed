@@ -1,10 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/abhimanoj/NewsFeed/">
-    <img src="images/logo.jpeg" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">News Feed</h3>
   <p align="center">
     <pre>This app is used for getting daily news based on topic.</pre>
